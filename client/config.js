@@ -5,12 +5,12 @@ const checkConfig = (server) => {
   switch (server) {
     case "production":
       config = {
-        baseUrl: "https://aria-app-v1-xf33.vercel.app",
+        baseUrl: "https://aria-app-v1-ee7i.vercel.app",
       };
       break;
     case "local":
       config = {
-        baseUrl: "http://localhost:8000",
+        baseUrl: "https://aria-app-v1-ee7i.vercel.app",
       };
       break;
     default:
