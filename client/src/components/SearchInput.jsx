@@ -19,7 +19,7 @@ const SearchInput = () => {
       return;
     }
 
-    const endpoint = `http://localhost:8000/api/products?_search=${search}`;
+    const endpoint = `https://aria-app-v1-ee7i.vercel.app/api/products?_search=${search}`;
 
     try {
       setLoading(true);

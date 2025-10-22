@@ -73,7 +73,7 @@ const Contact = () => {
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        "http://localhost:8000/api/contact/my-contacts",
+        "https://aria-app-v1-ee7i.vercel.app/api/contact/my-contacts",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -127,7 +127,7 @@ const Contact = () => {
 
     try {
       const token = localStorage.getItem("token");
-      const response = await fetch("http://localhost:8000/api/contact", {
+      const response = await fetch("https://aria-app-v1-ee7i.vercel.app/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

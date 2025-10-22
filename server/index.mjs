@@ -14,8 +14,8 @@ const allowedOrigins = [
   process.env.ADMIN_URL,
   process.env.CLIENT_URL,
   // Add production URLs
-  // "https://alariabd.com",
-  // "https://admin.alariabd.com",
+  "https://alariabd.com",
+  "https://admin.alariabd.com",
 
   // Add localhost for development
   "http://localhost:5174",

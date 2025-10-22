@@ -27,7 +27,7 @@ const Checkout = () => {
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        `http://localhost:8000/api/order/user/${orderId}`,
+        `https://aria-app-v1-ee7i.vercel.app/api/order/user/${orderId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

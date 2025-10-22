@@ -37,7 +37,7 @@ const PaymentSuccess = () => {
 
         // Confirm payment with backend
         const confirmResponse = await fetch(
-          "http://localhost:8000/api/payment/stripe/confirm-payment",
+          "https://aria-app-v1-ee7i.vercel.app/api/payment/stripe/confirm-payment",
           {
             method: "POST",
             headers: {

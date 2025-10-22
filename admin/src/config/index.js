@@ -14,7 +14,7 @@ const config = {
     API_BASE_URL:
       import.meta.env.VITE_API_BASE_URL || "https://aria-app-v1-ee7i.vercel.app",
     CLIENT_BASE_URL:
-      import.meta.env.VITE_CLIENT_BASE_URL || "https://aria-app-v1-xf33.vercel.app",
+      import.meta.env.VITE_CLIENT_BASE_URL || "https://alariabd.com",
     ADMIN_BASE_URL:
       import.meta.env.VITE_ADMIN_BASE_URL || "https://aria-app-v1-jfvh.vercel.app",
     NODE_ENV: "production",

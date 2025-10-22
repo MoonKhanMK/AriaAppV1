@@ -59,7 +59,7 @@ const Contacts = () => {
       });
 
       const response = await fetch(
-        `http://localhost:8000/api/contact/admin/all?${queryParams}`,
+        `https://aria-app-v1-ee7i.vercel.app/api/contact/admin/all?${queryParams}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -87,7 +87,7 @@ const Contacts = () => {
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        `http://localhost:8000/api/contact/admin/${contactId}/status`,
+        `https://aria-app-v1-ee7i.vercel.app/api/contact/admin/${contactId}/status`,
         {
           method: "PUT",
           headers: {
@@ -121,7 +121,7 @@ const Contacts = () => {
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        `http://localhost:8000/api/contact/admin/${contactId}`,
+        `https://aria-app-v1-ee7i.vercel.app/api/contact/admin/${contactId}`,
         {
           method: "DELETE",
           headers: {
@@ -161,7 +161,7 @@ const Contacts = () => {
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        `http://localhost:8000/api/contact/admin/${contactId}`,
+        `https://aria-app-v1-ee7i.vercel.app/api/contact/admin/${contactId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
