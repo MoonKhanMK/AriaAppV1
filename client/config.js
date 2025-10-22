@@ -5,7 +5,7 @@ const checkConfig = (server) => {
   switch (server) {
     case "production":
       config = {
-        baseUrl: "http://localhost:8000",
+        baseUrl: "https://aria-app-v1-moonkhanmks-projects.vercel.app",
       };
       break;
     case "local":
